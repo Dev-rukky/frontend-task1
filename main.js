@@ -13,9 +13,9 @@ const updateDateTime = () => {
 
     const currentUTCTimeElement = document.querySelector('[data-testid="currentUTCTime"]');
 
-    const utcMilliSeconds = Date.now();
+    const milliSeconds = Date.now();
 
-     currentUTCTimeElement.textContent = utcMilliSeconds;
+     currentUTCTimeElement.textContent = milliSeconds;
 } 
 
 updateDateTime();
